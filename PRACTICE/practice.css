@@ -1,0 +1,26 @@
+div {
+  background-color: #ff180b;
+}
+a:hover div {
+  background-color: greenyellow;
+  color: black;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid #eee;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+.amazon {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border-radius: 10rem;
+}

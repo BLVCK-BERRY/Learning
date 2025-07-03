@@ -1,0 +1,636 @@
+/* body {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  /* CSS Colors */
+/* background: papayawhip;
+  color: rgb(0, 0, 225); */
+/* } */
+
+/* p { */
+/* color: rgba(0, 0, 0, 0.5); */
+/* color: hsl(240, 100%, 30%); */
+/* shorthand */
+/* color: #333; */
+/* } */
+/* p {
+  font-size: 15px;
+  color: purple;
+} */
+
+/* CSS Selectors */
+
+/* 1. Type Selector(property) */
+/* p {
+  color: purple;
+} */
+
+/* 2.Class Selector(.classname) */
+/* .ismaeel {
+  color: grey;
+} */
+
+/* 3. ID Selector(#id)  */
+/* #first {
+  font-style: italic;
+} */
+
+/* 4. Descendant Selector(space) 
+Selects elements that are descendants of a specified element.*/
+/* p span {
+  text-transform: uppercase;
+  background-color: gold;
+} */
+/* Instead use the class selector for ease */
+/* .highlight {
+  text-transform: uppercase;
+  background-color: gold;
+} */
+
+/* 5. Pseudo-class Selector(:)
+Selects elements based on their state or position. */
+/* a:hover {
+  color: red;
+} */
+/* Type of Psuedo-class Selectors */
+/* :nth-child(n) targets elements based on their position among siblings.*/
+/* :nth-of-type(n) targets elements based on their type among siblings. */
+/* Example;  
+li:nth-child(2) {
+  color: red;
+} */
+
+/* 6.Pseudo-element Selector(::)
+Selects and styles parts of an element. */
+/* p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 2em;
+} */
+
+/* h1::before {
+  content: "Note: ";
+  color: red;
+} */
+
+/* 7. Child Selector (>) 
+Selects direct child elements of a specified element. */
+/* ul > li {
+  list-style: circle;
+} */
+
+/* 8. Adjacent Sibling Selector (+) 
+Selects an element that is immediately preceded by a specified element. */
+/* h1 + p {
+  font-style: italic;
+} */
+
+/* 9. General Sibling Selector (~) 
+Selects all siblings of a specified element. */
+/* h1 ~ p {
+  color: purple;
+} */
+
+/* 10. Attribute Selector 
+Selects elements based on attributes. */
+/* input[type="text"] {
+  border: 3px solid black;
+} */
+
+/* 11. Group Selector(,) */
+/* h1,
+h2 {
+  color: blue;
+} */
+
+/* 12.Universal Selector(*) */
+/* * {
+  background-color: greenyellow;
+  font-family: monospace;
+} */
+
+/* 13. Combinators */
+
+/* Form elements does not inherit */
+/* button,
+input,
+select,
+textarea {
+  font-family: inherit;
+} */
+
+/* main {
+  font-size: 10px;
+  font-style: oblique;
+} */
+
+/* CSS Units */
+/* p {
+  font-size: 16px;
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+} */
+
+/* h1 {
+  border: 2px dotted black;
+  width: 50%;
+  font-size: 3rem;
+  padding: 0.5em;
+} */
+
+/* main { */
+/* width: 50vw;
+  background-color: skyblue; */
+/* font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  width: 40ch;
+} */
+
+/* CSS Box Model */
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 10px double black;
+  font-size: 1.5rem;
+  margin: 1.5em;
+  padding: 1.5em;
+  outline: 5px solid purple;
+  outline-offset: -20px;
+}
+
+.circle {
+  margin: 3rem auto;
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50px;
+  outline: 2px solid red;
+  outline-offset: 0.25rem;
+} */
+
+/* CSS Typography */
+/* Tpography is the way your text is arranged and presented */
+
+/* body {
+  padding: 25%;
+  font-size: 2rem;
+  font-family: cursive; 
+  font-family: "Times New Roman", Times, serif;
+} */
+
+/* input,
+button {
+  font: inherit;
+} */
+/* 
+p { */
+/* text-decoration: line-through;
+    (or you can use none if you want to underule default settings)
+  text-transform: uppercase;
+  text-align: justify;
+  text-indent: 2em; */
+/* font-style: oblique; */
+/* font-weight: 800;
+
+  line-height: 1.5; */
+/* letter-spacing: 0.1em;
+  word-spacing: 0.1em; */
+/* font-weight: 900;
+} */
+
+/* CSS Links */
+/* body {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: cursive;
+} */
+
+/* a { */
+/* text-decoration: none;
+  cursor: pointer;
+  color: blue; */
+/* color: indigo;
+  font-style: italic;
+} */
+
+/* a:visited {
+  color: red;
+} */
+
+/* a:hover,
+a:focus { */
+/* color: orange; */
+/* opacity: 0.6;
+  background: gold;
+} */
+
+/* a:active {
+  color: green;
+} */
+
+/* CSS Lists */
+/* body {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+ol {
+  list-style-type: lower-alpha;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: center;
+  color: blue;
+  line-height: 1.6; */
+/* list-style-image: url(html5.png);
+Shortcut
+  list-style: square url(html5.png) inside; */
+
+/* } */
+
+/* li {
+  color: red;
+  } */
+
+/* note that if the parent element is only selected then a sppace must be included before the semicolons 
+  Example
+  ul ::marker*/
+/* ul li::marker {
+  color: red;
+  font-size: 2em;
+  font-style: italic;
+  content: "Only $5 >>";
+  line-height: 0.2em;
+}
+
+ul::first-line {
+  font-weight: bold;
+}
+
+dd li::marker {
+  font-size: 4em;
+  content: "Ajibade";
+}
+
+dd li:nth-child(2):first-letter {
+  color: red;
+} */
+
+/* CSS Display */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2rem;
+  font-family: cursive;
+} */
+/* p {
+  background: lightgray;
+}
+.opposite {
+  display: inline-block;
+  background: #333;
+  color: whitesmoke;
+  margin-top: 100px;
+  height: 200px;
+  padding: 4rem;
+} */
+/* ul {
+  list-style-type: none;
+  padding: 0.5rem;
+  text-align: right;
+  background-color: black;
+  margin: 0;
+}
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+li a:hover,
+li a:focus {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+} */
+
+/* CSS Floats */
+/* body {
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+.block {
+  width: 30vw;
+  height: 30vw;
+  background: black;
+  color: white;
+  padding: 1rem;
+}
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+.right {
+  float: right;
+  margin-left: 1rem;
+}
+.clear {
+  clear: both;
+}
+.floats {
+  background-color: bisque;
+  border: 1px solid black;
+  padding: 1rem; */
+/* Both method works when the clear div is outside the section element; */
+/* 1. overflow: auto;
+2. display: flow-root; */
+/* } */
+
+/* CSS Coloums */
+/* body {
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+.coloums { */
+/* column-count: 4;
+  column-width: 250px; */
+/* columns: 4 250px;
+  column-rule: 3px solid #333;
+  column-gap: 5rem;
+}
+.coloums p {
+  margin-top: 0;
+}
+#Next {
+  margin-top: 0;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  break-inside: avoid; */
+/* break-before: column; */
+/* }
+.coloums .quote {
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  column-span: all;
+}
+.nowrap {
+  white-space: nowrap;
+} */
+
+/* CSS Positioning */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: cursive;
+  font-size: 1.5rem;
+  min-height: 200vh;
+}
+.outer-container {
+  border: 3px dashed black;
+  width: 75vw;
+  height: 85vw;
+  margin: 40px auto;
+  position: relative;
+}
+.inner-container {
+  border: 2px solid blue;
+  width: 50vw;
+  height: 60vw;
+  margin: 200px auto;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  color: white;
+  padding: 1rem;
+}
+.absolute {
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  left: 0px; */
+/* left: -10000px; */
+/* z-index: 1;
+}
+.relative {
+  background-color: red;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.fixed {
+  background-color: green;
+  position: fixed;
+  top: 100px;
+  left: 10px;
+}
+.sticky {
+  background-color: orange;
+  position: sticky;
+  top: 0px;
+  margin: 20px auto;
+  z-index: 1;
+} */
+/* Remember, how to make things disappear! REMEMBER!!!!  REMEMBER!!!! */
+/* body {
+  font-family: cursive;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.social {
+  background-color: royalblue;
+  color: white;
+  font-size: inherit;
+  padding: 1rem;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  z-index: 1;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vw;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+article,
+footer {
+  color: white;
+  text-align: center;
+  height: 75px;
+}
+article {
+  position: sticky;
+  top: 0;
+  font-size: 3rem;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  position: sticky;
+  bottom: 0px;
+  font-size: 1.5rem;
+  height: 35px;
+}
+a,
+a:visited {
+  color: white;
+} */
+
+/* CSS Flexbox */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: cursive;
+  font-size: 1.5rem;
+  min-height: 100vh;
+  padding: 20px;
+}
+.container {
+  max-width: 1000px;
+  min-height: 400px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  align-items: center; */
+/* flex-direction: row-reverse;
+  flex-wrap: wrap;  */
+/* min-width: 100px; */
+/* height: 100px;
+  background: #000;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+/* flex-basis: 150px; */
+/* flex-grow: 2;
+  flex-shrink: 1; */
+/* flex: 2 1 150px;
+}
+.box:nth-child(2) {
+  flex-shrink: 2;
+  order: 4;
+} */
+/* FlexboxFroggy.com */
+
+/* CSS Grid Layouts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: cursive;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-auto-rows: 50px auto 50px;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn sb sb"
+    "ft ft ft ft ft ft ft ft ft";
+  gap: 0.5rem;
+}
+.el {
+  min-height: 2;
+  background: rebeccapurple;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+.header {
+  grid-area: hd;
+}
+.sidebar {
+  grid-area: sb;
+  background-color: burlywood;
+}
+.footer {
+  grid-area: ft;
+}
+.container {
+  grid-area: mn;
+  min-height: 400px;
+  display: grid;
+  grid-auto-columns: repeat(2, 1fr 2fr);
+  grid-auto-rows: minmax(150px auto);
+  gap: 1rem;
+}
+.box {
+  background-color: lightslategrey;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.box:first-child {
+  background-color: gold;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  grid-column: 1 / 4;
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+  grid-row: 1 / 3;
+
+  display: grid;
+  /* align-content: center;
+  justify-content: center; */
+  place-content: center;
+}
+.box:nth-child(2) {
+  background-color: lightcoral;
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+}

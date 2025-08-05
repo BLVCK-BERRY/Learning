@@ -24,3 +24,11 @@ caption {
 button {
   border-radius: 10rem;
 }
+#goggle {
+  font-size: 100px;
+  letter-spacing: 1rem;
+}
+#goggle::first-letter {
+  color: yellow;
+}
+#goggle

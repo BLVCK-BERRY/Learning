@@ -25,3 +25,4 @@ As I continue, I'll add more advanced projects and dive deeper into modern CSS f
 ---
 
 Thank you for visiting my learning journey!
+# D.G_Coding
